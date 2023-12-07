@@ -4,6 +4,8 @@ import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header'
 import Main from './components/Main'
+import PkmnLogo from './assets/images/pkmn-logo.png';
+
 
 function App() {
   
@@ -23,7 +25,7 @@ function App() {
       <BrowserRouter >
         <PkmnListContext.Provider value={PkmnData}>
           <Header/>
-          <h1>PokeApp</h1>
+            <img id="pkmn-logo" src={PkmnLogo} alt="" />
           <Main/>
         </PkmnListContext.Provider>
       </BrowserRouter>
