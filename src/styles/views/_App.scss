@@ -1,0 +1,13 @@
+body {
+    background-image: url('../../assets/images/background.png');
+    background-color: rgb(212, 238, 229);
+
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}

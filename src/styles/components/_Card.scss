@@ -1,0 +1,239 @@
+@import '../utils/variables.scss';
+
+.pkmn-card-container {
+    width: 158px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pkmn-card-container:active {
+    position: relative;
+    top: 2px;
+}
+
+.pkmn-card-container button {
+    padding: 5px 10px;
+    margin: 5px;
+
+    border: 1px solid rgb(144, 241, 144);
+    border-radius: 5px;
+
+    background-color: rgb(144, 241, 144);
+}
+
+#pokemon-card {
+    background-color: aliceblue;
+
+    border-radius: 20px;
+
+    width: 150px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#pokemon-card > #id-p {
+    margin: 0 10px;
+    text-align: end;
+    font-size: large;
+}
+
+#pokemon-card > h4 {
+    margin: 0;
+    padding: 10px;
+    color: white;
+
+    text-align: center;
+}
+
+#pokemon-card > img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.pkmn-card-container .fire {
+    border: 4px solid $fire;
+}
+.pkmn-card-container .fire > #id-p {
+    color: $fire;
+}
+.pkmn-card-container .fire > h4 {
+    background-color: $fire;
+}
+
+.pkmn-card-container .normal {
+    border: 4px solid $normal;
+}
+.pkmn-card-container .normal > #id-p {
+    color: $normal;
+}
+.pkmn-card-container .normal > h4 {
+    background-color: $normal;
+}
+
+.pkmn-card-container .water {
+    border: 4px solid $water;
+}
+.pkmn-card-container .water > #id-p {
+    color: $water;
+}
+.pkmn-card-container .water > h4 {
+    background-color: $water;
+}
+
+.pkmn-card-container .electric {
+    border: 4px solid $electric;
+}
+.pkmn-card-container .electric > #id-p {
+    color: $electric;
+}
+.pkmn-card-container .electric > h4 {
+    background-color: $electric;
+    color: rgb(45, 45, 45);
+}
+
+.pkmn-card-container .grass {
+    border: 4px solid $grass;
+}
+.pkmn-card-container .grass > #id-p {
+    color: $grass;
+}
+.pkmn-card-container .grass > h4 {
+    background-color: $grass;
+}
+
+.pkmn-card-container .ice {
+    border: 4px solid $ice;
+}
+.pkmn-card-container .ice > #id-p {
+    color: $ice;
+}
+.pkmn-card-container .ice > h4 {
+    background-color: $ice;
+    color: rgb(45, 45, 45);
+}
+
+.pkmn-card-container .fighting {
+    border: 4px solid $fighting;
+}
+.pkmn-card-container .fighting > #id-p {
+    color: $fighting;
+}
+.pkmn-card-container .fighting > h4 {
+    background-color: $fighting;
+}
+
+.pkmn-card-container .poison {
+    border: 4px solid $poison;
+}
+.pkmn-card-container .poison > #id-p {
+    color: $poison;
+}
+.pkmn-card-container .poison > h4 {
+    background-color: $poison;
+}
+
+.pkmn-card-container .ground {
+    border: 4px solid $ground;
+}
+.pkmn-card-container .ground > #id-p {
+    color: $ground;
+}
+.pkmn-card-container .ground > h4 {
+    background-color: $ground;
+    color: rgb(45, 45, 45);
+}
+
+.pkmn-card-container .flying {
+    border: 4px solid $flying;
+}
+.pkmn-card-container .flying > #id-p {
+    color: $flying;
+}
+.pkmn-card-container .flying > h4 {
+    background-color: $flying;
+}
+
+.pkmn-card-container .psychic {
+    border: 4px solid $psychic;
+}
+.pkmn-card-container .psychic > #id-p {
+    color: $psychic;
+}
+.pkmn-card-container .psychic > h4 {
+    background-color: $psychic;
+}
+
+.pkmn-card-container .bug {
+    border: 4px solid $bug;
+}
+.pkmn-card-container .bug > #id-p {
+    color: $bug;
+}
+.pkmn-card-container .bug > h4 {
+    background-color: $bug;
+}
+
+.pkmn-card-container .rock {
+    border: 4px solid $rock;
+}
+.pkmn-card-container .rock > #id-p {
+    color: $rock;
+}
+.pkmn-card-container .rock > h4 {
+    background-color: $rock;
+}
+
+.pkmn-card-container .ghost {
+    border: 4px solid $ghost;
+}
+.pkmn-card-container .ghost > #id-p {
+    color: $ghost;
+}
+.pkmn-card-container .ghost > h4 {
+    background-color: $ghost;
+}
+
+.pkmn-card-container .dragon {
+    border: 4px solid $dragon;
+}
+.pkmn-card-container .dragon > #id-p {
+    color: $dragon;
+}
+.pkmn-card-container .dragon > h4 {
+    background-color: $dragon;
+}
+
+.pkmn-card-container .dark {
+    border: 4px solid $dark;
+}
+.pkmn-card-container .dark > #id-p {
+    color: $dark;
+}
+.pkmn-card-container .dark > h4 {
+    background-color: $dark;
+}
+
+.pkmn-card-container .steel {
+    border: 4px solid $steel;
+}
+.pkmn-card-container .steel > #id-p {
+    color: $steel;
+}
+.pkmn-card-container .steel > h4 {
+    background-color: $steel;
+    color: rgb(45, 45, 45);
+}
+
+.pkmn-card-container .fairy {
+    border: 4px solid $fairy;
+}
+.pkmn-card-container .fairy > #id-p {
+    color: $fairy;
+}
+.pkmn-card-container .fairy > h4 {
+    background-color: $fairy;
+}

@@ -1,0 +1,296 @@
+@import '../utils/variables.scss';
+
+#detailed-card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#detailed-card-container button {
+    padding: 5px 10px;
+    margin: 5px;
+
+    border: 1px solid rgb(144, 241, 144);
+    border-radius: 5px;
+
+    background-color: rgb(144, 241, 144);
+}
+
+#detailed-card-container a {
+    margin: 10px auto;
+}
+
+#detailed-card {
+    font-size: large;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+
+    margin: 10px;
+}
+
+#detailed-card > #base-stats-section {
+    color: #242424;
+    margin: 0;
+
+    text-align: center;
+}
+
+#detailed-card > #general-info-section {
+    background-color: white;
+    color: #242424;
+
+    text-align: center;
+}
+
+#detailed-card > #general-info-section > h3 {
+    margin: 10px auto;
+}
+
+#characteristics {
+    margin: 5px;
+}
+
+#characteristics > div {
+    margin: 5px auto;
+}
+
+#detailed-card > #base-stats-section, #general-info-section {
+    padding: 20px;
+}
+
+#detailed-card.fire {
+    border: 4px solid $fire;
+}
+#base-stats-section.fire {
+    background-color: $fire;
+}
+span.fire{
+    background-color: $fire;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.normal {
+    border: 4px solid $normal;
+}
+#base-stats-section.normal {
+    background-color: $normal;
+}
+span.normal{
+    background-color: $normal;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.water {
+    border: 4px solid $water;
+}
+#base-stats-section.water {
+    background-color: $water;
+}
+span.water{
+    background-color: $water;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.electric {
+    border: 4px solid $electric;
+}
+#base-stats-section.electric {
+    background-color: $electric;
+}
+span.electric{
+    background-color: $electric;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.grass {
+    border: 4px solid $grass;
+}
+#base-stats-section.grass {
+    background-color: $grass;
+}
+span.grass{
+    background-color: $grass;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.ice {
+    border: 4px solid $ice;
+}
+#base-stats-section.ice {
+    background-color: $ice;
+}
+span.ice{
+    background-color: $ice;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.fighting {
+    border: 4px solid $fighting;
+}
+#base-stats-section.fighting {
+    background-color: $fighting;
+}
+span.fighting{
+    background-color: $fighting;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.poison {
+    border: 4px solid $poison;
+}
+#base-stats-section.poison {
+    background-color: $poison;
+}
+span.poison{
+    background-color: $poison;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.ground {
+    border: 4px solid $ground;
+}
+#base-stats-section.ground {
+    background-color: $ground;
+}
+span.ground{
+    background-color: $ground;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.flying {
+    border: 4px solid $flying;
+}
+#base-stats-section.flying {
+    background-color: $flying;
+}
+span.flying{
+    background-color: $flying;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.psychic {
+    border: 4px solid $psychic;
+}
+#base-stats-section.psychic {
+    background-color: $psychic;
+}
+span.psychic{
+    background-color: $psychic;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.bug {
+    border: 4px solid $bug;
+}
+#base-stats-section.bug {
+    background-color: $bug;
+}
+span.bug{
+    background-color: $bug;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.rock {
+    border: 4px solid $rock;
+}
+#base-stats-section.rock {
+    background-color: $rock;
+}
+span.rock{
+    background-color: $rock;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.ghost {
+    border: 4px solid $ghost;
+}
+#base-stats-section.ghost {
+    background-color: $ghost;
+}
+span.ghost{
+    background-color: $ghost;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.dragon {
+    border: 4px solid $dragon;
+}
+#base-stats-section.dragon {
+    background-color: $dragon;
+}
+span.dragon{
+    background-color: $dragon;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.dark {
+    border: 4px solid $dark;
+}
+#base-stats-section.dark {
+    background-color: $dark;
+}
+span.dark{
+    background-color: $dark;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.steel {
+    border: 4px solid $steel;
+}
+#base-stats-section.steel {
+    background-color: $steel;
+}
+span.steel{
+    background-color: $steel;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
+
+#detailed-card.fairy {
+    border: 4px solid $fairy;
+}
+#base-stats-section.fairy {
+    background-color: $fairy;
+}
+span.fairy{
+    background-color: $fairy;
+    padding: 0 5px;
+
+    border-radius: 5px;
+}
