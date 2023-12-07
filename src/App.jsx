@@ -26,7 +26,6 @@ function App() {
         <PkmnListContext.Provider value={PkmnData}>
           <Header/>
             <img id="pkmn-logo" src={PkmnLogo} alt="" />
-            <h1>Welcome to the Pokemon App!</h1>
           <Main/>
         </PkmnListContext.Provider>
       </BrowserRouter>
