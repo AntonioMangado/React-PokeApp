@@ -58,7 +58,7 @@ const DetailedCard = () => {
               </div>
             </article>
 
-            <Link to='/'>
+            <Link to='/search'>
               <button onClick={deleteList}>BACK TO SEARCH</button>
             </Link> 
           </> :
